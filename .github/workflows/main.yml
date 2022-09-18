@@ -44,6 +44,8 @@ jobs:
           haxelib install flixel-tools
           haxelib install flixel-ui
           haxelib install flixel-addons
+          haxelib git flxanimate https://github.com/Dot-Stuff/flxanimate
+          haxelib set flxanimate 1.2.0
           haxelib install tjson
           haxelib install hxjsonast
           haxelib install hxCodec
@@ -85,6 +87,8 @@ jobs:
           haxelib install hxp
           haxelib install flixel-tools
           haxelib install flixel-ui
+          haxelib git flxanimate https://github.com/Dot-Stuff/flxanimate
+          haxelib set flxanimate 1.2.0
           haxelib install flixel-addons
           haxelib install tjson
           haxelib install hxjsonast
@@ -132,6 +136,8 @@ jobs:
           haxelib install hxp
           haxelib install hxjsonast
           haxelib install hxCodec
+          haxelib git flxanimate https://github.com/Dot-Stuff/flxanimate
+          haxelib set flxanimate 1.2.0
           haxelib git linc_luajit https://github.com/nebulazorua/linc_luajit
           haxelib install hscript
           haxelib git hscript-ex https://github.com/ianharrigan/hscript-ex
@@ -181,6 +187,8 @@ jobs:
           haxelib install openfl
           haxelib install hxp
           haxelib --never install flixel
+          haxelib git flxanimate https://github.com/Dot-Stuff/flxanimate
+          haxelib set flxanimate 1.2.0
           haxelib run lime setup flixel
           haxelib install flixel-tools
           haxelib install flixel-ui
