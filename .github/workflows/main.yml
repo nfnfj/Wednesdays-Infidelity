@@ -36,6 +36,7 @@ jobs:
           haxelib setup ~/haxelib
           haxelib install hxcpp > /dev/null
           haxelib install lime
+          haxelib install hxp
           haxelib install openfl
           haxelib --never install flixel
           haxelib run lime setup flixel
@@ -81,6 +82,7 @@ jobs:
           haxelib --never install flixel
           haxelib run lime setup flixel
           haxelib run lime setup
+          haxelib install hxp
           haxelib install flixel-tools
           haxelib install flixel-ui
           haxelib install flixel-addons
@@ -127,6 +129,7 @@ jobs:
           haxelib install flixel-ui
           haxelib install flixel-addons
           haxelib install tjson
+          haxelib install hxp
           haxelib install hxjsonast
           haxelib install hxCodec
           haxelib git linc_luajit https://github.com/nebulazorua/linc_luajit
@@ -176,6 +179,7 @@ jobs:
           haxelib install hxcpp > /dev/null
           haxelib install lime
           haxelib install openfl
+          haxelib install hxp
           haxelib --never install flixel
           haxelib run lime setup flixel
           haxelib install flixel-tools
